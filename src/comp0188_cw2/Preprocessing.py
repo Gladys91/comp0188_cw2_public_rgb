@@ -82,8 +82,8 @@ def main():
         test_dh.create()
 
     process_data_lkp = {
-        "front_cam_ob": lambda x: to_greyscale(x.astype(int)).astype(np.float16),
-        "mount_cam_ob": lambda x: to_greyscale(x.astype(int)).astype(np.float16),
+        "front_cam_ob": lambda x: x.astype(np.float16),
+        "mount_cam_ob": lambda x:  x.astype(np.float16),
         "actions": lambda x: x.astype(np.float16),
         "terminals": lambda x: x,
         "ee_cartesian_pos_ob": lambda x: x.astype(np.float16),
