@@ -8,7 +8,6 @@ from comp0188_cw2_2526.config import (
     train_dh, val_dh, test_dh
     )
 from . import project_options
-from comp0188_cw2_2526.utils import to_greyscale
 import numpy as np
 
 def main():
