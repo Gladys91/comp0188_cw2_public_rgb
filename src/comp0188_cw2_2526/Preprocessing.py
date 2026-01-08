@@ -3,12 +3,12 @@ import os
 import re
 from sklearn.model_selection import train_test_split
 import h5py
-from comp0188_cw2.config import (
+from comp0188_cw2_2526.config import (
     FILE_PATH, ROOT_PATH,
     train_dh, val_dh, test_dh
     )
 from . import project_options
-from comp0188_cw2.utils import to_greyscale
+from comp0188_cw2_2526.utils import to_greyscale
 import numpy as np
 
 def main():
